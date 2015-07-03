@@ -35,7 +35,7 @@ if VFS.FileExists("config/EVOconfig.lua") then
 
 	featureslist	= featurecfg.objectlist
 	buildinglist	= featurecfg.buildinglist
-	unitlist		= featurecfg.unitlist
+	unitlist	= featurecfg.unitlist
 	metalspots   	= featurecfg.metalspots
 else
 	Spring.Echo("No evo specific features loaded")
@@ -51,7 +51,7 @@ if ( featurecfg ~= nil ) then
 		end
 	end
 				
-	if ( buildinglist )	then	
+	if ( unitlist )	then	
 		for i,uDef in pairs(unitlist) do
 			local flagID = CreateUnit(uDef.name, uDef.x, 0, uDef.z, 0, gaiaID)
 			SetUnitRotation(flagID, 0, -uDef.rot * math.pi / 32768, 0)
