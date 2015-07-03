@@ -9,6 +9,7 @@ local unitDef = {
   bmcode             = "0",
   buildCostEnergy    = 0,
   buildCostMetal     = 0,
+  buildPic			 = "randbehetree.png",
   description        = "Spawns a random beherith tree",
   explodeAs          = "ELECTRIC_EXPLOSION",
   footprintX         = 2,

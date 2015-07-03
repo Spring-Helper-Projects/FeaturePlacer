@@ -9,6 +9,7 @@ local unitDef = {
   bmcode             = "0",
   buildCostEnergy    = 0,
   buildCostMetal     = 0,
+  buildPic			 = "randespire.png",
   description        = "Spawns a random energy spire",
   explodeAs          = "ELECTRIC_EXPLOSION",
   footprintX         = 2,

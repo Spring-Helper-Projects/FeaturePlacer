@@ -9,6 +9,7 @@ local unitDef = {
   bmcode             = "0",
   buildCostEnergy    = 0,
   buildCostMetal     = 0,
+  buildPic			 = "rand0adsnowtree.png",
   description        = "Spawns a random 0ad snowy tree",
   explodeAs          = "ELECTRIC_EXPLOSION",
   footprintX         = 2,
