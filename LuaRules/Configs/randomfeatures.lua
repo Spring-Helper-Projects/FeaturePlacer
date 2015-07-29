@@ -468,5 +468,26 @@ local spawnertypes = {
 	"btreeclo_3",
 	"btreeclo_4",
 	},
+	randpdesertplant = {
+	"pdesertPlant1",
+	"pdesertPlant2",
+	"pdesertPlant3",
+	"pdesertPlant4",
+	"pdesertPlant5",
+	},
+	randpvolcanicrocks = {
+	"pvolcanicrock1",
+	"pvolcanicrock2",
+	"pvolcanicrock3",
+	"pvolcanicrock4",
+	"pvolcanicrock5",
+	},
+	randprock = {
+	"prock1",
+	"prock2",
+	"prock3",
+	"prock4",
+	"prock5",
+	},
 }
 return spawnertypes
